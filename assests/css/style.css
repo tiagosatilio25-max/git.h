@@ -1,6 +1,6 @@
 :root {
     /* CRIAÇÃO DE VARIAVEIS CSS */
-    --bg: #ed4949;
+    --bg: #8eabe9;
     --card: #ffffff;
     --accent: #0b5ed7;
     --muted: #6b7280;
@@ -196,7 +196,7 @@ code {
     border: 1px solid #e6eef9;
     font-family: monospace
 }
- 
+
  
 /* responsive */
 @media(max-width:880px) {
@@ -209,8 +209,17 @@ code {
         height: 64px
     }
 }
- 
-/* .img-logo {
-        width: 64px;
-        height: 64px
-    } */
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+input{
+    margin-top: 10px;
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 10px;
+
+
+}
